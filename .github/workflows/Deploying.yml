@@ -1,8 +1,6 @@
 name: Deploying
-on:
-  push:
-    branches:
-      - master
+on: push
+
 jobs:
   deploy:
     name: Deploying to Testflight
